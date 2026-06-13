@@ -13,7 +13,7 @@ class Ash < Formula
   license "MIT"
   head "https://github.com/dboeke/ash-cli.git", branch: "main"
 
-  depends_on xcode: :build
+  depends_on xcode: ["26.0", :build]
   depends_on arch: :arm64
   # Requires macOS 26+ with Apple Intelligence at runtime. ash prints a clear
   # message and exits if the on-device model is unavailable, so the OS minimum
