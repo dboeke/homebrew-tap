@@ -8,8 +8,8 @@
 class Ash < Formula
   desc "Agentic shell: natural-language commands via on-device Apple Intelligence"
   homepage "https://github.com/dboeke/ash-cli"
-  url "https://github.com/dboeke/ash-cli/archive/refs/tags/v0.1.6.tar.gz"
-  sha256 "31d0a6177ac415cfc1f6ef6269520cb75021ac901bebee8713000bad945fc36b"
+  url "https://github.com/dboeke/ash-cli/archive/refs/tags/v0.1.7.tar.gz"
+  sha256 "2d9720f512ec64a7febc840a2ffbdb00c793ecef6ff37ca53d3ec1f395e2e59a"
   license "MIT"
   head "https://github.com/dboeke/ash-cli.git", branch: "main"
 
